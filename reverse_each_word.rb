@@ -1,3 +1,5 @@
 def reverse_each_word(string)
-  string.each d |element|
+  string.each do |element|
+    return element.reverse
+  end
 end
